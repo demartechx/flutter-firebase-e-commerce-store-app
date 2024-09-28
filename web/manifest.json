@@ -1,6 +1,6 @@
 {
-    "name": "flutter_firebase_e_commerce_store_app",
-    "short_name": "flutter_firebase_e_commerce_store_app",
+    "name": "t_store",
+    "short_name": "t_store",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

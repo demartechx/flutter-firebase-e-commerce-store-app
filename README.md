@@ -1,4 +1,4 @@
-# flutter_firebase_e_commerce_store_app
+# flutter_e_commerce_store_app
 
 A new Flutter project.
 
