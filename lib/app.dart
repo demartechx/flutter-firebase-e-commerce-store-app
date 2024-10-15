@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/navigation_menu.dart';
+import 'package:t_store/bindings/general_bindings.dart';
+import 'package:t_store/utils/constants/colors.dart';
 import 'package:t_store/utils/theme/theme.dart';
 
 class App extends StatelessWidget {
@@ -15,7 +16,16 @@ class App extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
-      home: const NavigationMenu() // OnBoardingScreen(),
+      initialBinding: GeneralBindings(),
+      home:  const Scaffold(
+        backgroundColor: TColors.primary,
+        body: Center(
+          child: CircularProgressIndicator(color: Colors.white,),
+        ),
+      )
+      
+      
+      //const OnBoardingScreen(),
     );
   }
 }
